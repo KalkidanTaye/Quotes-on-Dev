@@ -340,6 +340,18 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
+body {
+  background-color: #222222;
+  width: 1080px; }
+
+.hfeed-site .site-header .logo {
+  background-image: url("/../../../QuotesOnDev/wp-content/themes/quotesondev-starter-master/assets/qod-logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px auto;
+  width: auto;
+  height: 150px; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -593,3 +605,6 @@ object {
 --------------------------------------------------------------*/
 /* All Archives Page */
 /* Submit a Quote Page */
+.content-area .site-main {
+  max-width: 100%;
+  color: white; }
