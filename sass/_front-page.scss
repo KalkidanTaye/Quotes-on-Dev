@@ -17,9 +17,21 @@
                 margin-left: 600px;
                 font-size: 100px;
             
-            
         }
-       
+       .content-author{
+           flex:50%;
+           .quote{
+            font-family: 'Exo Medium';
+           }
+           .author{
+            font-family: 'Exo Light';
+            color: white;
+            .art-web{
+                color:#00cc00;
+                font-family: 'Exo Light Italic';
+            }
+           }
+       }
         .right-quote {
             flex:25%;
             font-size: 100px;

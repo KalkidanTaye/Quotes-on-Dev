@@ -416,6 +416,21 @@ input[type="submit"] {
     -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
             box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
 
+.show-button {
+  border: 1px solid #00cc00;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  color: #00cc00;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Exo Light'; }
+  .show-button:hover {
+    border-color: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+
 .search-submit {
   border: none;
   background: none;
@@ -671,6 +686,18 @@ object {
     color: #00cc00;
     margin-left: 600px;
     font-size: 100px; }
+  .hfeed-site .site-content .content-area .site-main .content-author {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%; }
+    .hfeed-site .site-content .content-area .site-main .content-author .quote {
+      font-family: 'Exo Medium'; }
+    .hfeed-site .site-content .content-area .site-main .content-author .author {
+      font-family: 'Exo Light';
+      color: white; }
+      .hfeed-site .site-content .content-area .site-main .content-author .author .art-web {
+        color: #00cc00;
+        font-family: 'Exo Light Italic'; }
   .hfeed-site .site-content .content-area .site-main .right-quote {
     -webkit-box-flex: 25%;
         -ms-flex: 25%;
@@ -681,10 +708,12 @@ object {
     color: #00cc00; }
 
 .site-content .content-area .site-main .entry-header h1 {
-  color: white; }
+  color: white;
+  font-family: 'Exo Medium'; }
 
 .site-content .content-area .site-main .entry-content p {
-  color: white; }
+  color: white;
+  font-family: 'Exo Light'; }
 
 .site-content .content-area .site-main .entry-content .quotes {
   color: #00cc00; }

@@ -31,7 +31,20 @@ input[type="submit"] {
 	}
 }
 
-
+.show-button{
+	border:1px solid #00cc00;
+	background: none;
+	box-shadow: none;
+	text-shadow: none;
+	color: #00cc00;
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Exo Light';
+	&:hover {
+		border-color:none;
+		box-shadow: none;
+	}
+}
 
 .search-submit{
 	i{

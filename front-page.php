@@ -24,14 +24,17 @@ get_header(); ?>
             <!-- pagination here -->
 
             <!-- the loop -->
-            <?php while ( $the_first_quote->have_posts() ) : $the_first_quote->the_post(); ?>
-            <div class="quote"><h2><?php the_content(); ?></h2></div>
-            <div class="author"><?php the_title(); ?></div>
+            <div class="content-author">
+               <?php while ( $the_first_quote->have_posts() ) : $the_first_quote->the_post(); ?>
+               <div class="quote"><h2><?php the_content(); ?></h2></div>
+               <div class="author"><p><?php ?> - <?php the_title(); ?>.<span class="art-web"> The Art of Web Design</span></p></div>
 
 
-            <?php endwhile; ?>
+               <?php endwhile; ?>
             <!-- end of the loop -->
-
+            <button type="button" class="show-button">Show me Another!</button>
+         
+            </div>
             <!-- pagination here -->
 
             <!-- <?php wp_reset_postdata(); ?> -->
@@ -40,7 +43,7 @@ get_header(); ?>
          <div class="right-quote"> <i class="fas fa-quote-right"></i></div>
 		      </main><!-- #main -->
 	      </div><!-- #primary -->
-		          <button type="button" class="show-button">Show me Another</button>
+		         
            
      
       
