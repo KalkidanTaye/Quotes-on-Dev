@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-bottom: 1.5rem; }
 
-dfn, cite, em, i {
+dfn, cite, em {
   font-style: italic; }
 
 blockquote {
@@ -348,7 +348,7 @@ body {
   background-image: url("/../../../QuotesOnDev/wp-content/themes/quotesondev-starter-master/assets/qod-logo.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 500px auto;
+  background-size: 700px auto;
   width: auto;
   height: 150px; }
 
@@ -605,6 +605,44 @@ object {
 --------------------------------------------------------------*/
 /* All Archives Page */
 /* Submit a Quote Page */
-.content-area .site-main {
-  max-width: 100%;
+.hfeed-site .site-content .content-area .site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-left: -500px; }
+  .hfeed-site .site-content .content-area .site-main .quote {
+    color: white; }
+  .hfeed-site .site-content .content-area .site-main .left-quote {
+    -webkit-box-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%;
+    width: auto;
+    height: 200px;
+    color: #00cc00;
+    margin-left: 600px;
+    font-size: 100px; }
+  .hfeed-site .site-content .content-area .site-main .right-quote {
+    -webkit-box-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%;
+    font-size: 100px;
+    width: 100%;
+    height: 500px;
+    color: #00cc00; }
+
+.site-content .content-area .site-main .entry-header h1 {
+  color: white; }
+
+.site-content .content-area .site-main .entry-content p {
+  color: white; }
+
+.error-404 .page-header .page-title {
+  color: white; }
+
+.error-404 .page-content p {
   color: white; }
