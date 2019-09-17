@@ -368,8 +368,7 @@ table {
   width: 100%; }
 
 body {
-  background-color: #222222;
-  width: 1080px; }
+  background-color: #222222; }
 
 .hfeed-site .site-header .logo {
   background-image: url("/../../../QuotesOnDev/wp-content/themes/quotesondev-starter-master/assets/qod-logo.svg");
@@ -377,7 +376,8 @@ body {
   background-position: center;
   background-size: 700px auto;
   width: auto;
-  height: 150px; }
+  height: 150px;
+  margin-bottom: 50px; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -425,9 +425,10 @@ input[type="submit"] {
   color: #00cc00;
   font-size: 16px;
   padding: 10px 20px 10px 20px;
-  font-family: 'Exo Light'; }
+  font-family: 'Exo Light';
+  margin-left: -120px; }
   .show-button:hover {
-    border-color: none;
+    border-color: #00cc00;
     -webkit-box-shadow: none;
             box-shadow: none; }
 
@@ -451,7 +452,7 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  color: #666;
+  color: white;
   border: 1px solid #00cc00;
   border-radius: 3px;
   background-color: #222222;
@@ -462,21 +463,40 @@ textarea {
   input[type="password"]:focus,
   input[type="search"]:focus,
   textarea:focus {
-    color: #111; }
+    color: white; }
 
 input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-  padding: 3px; }
+  padding: 3px;
+  margin-top: 15px; }
 
 textarea {
   padding-left: 3px;
-  width: 100%; }
+  width: 600px;
+  height: 120px;
+  margin-top: 15px; }
 
 .search-form fieldset {
   border: none; }
+
+.wpcf7-form .wpcf7-submit {
+  border: 1px solid #00cc00;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  color: #00cc00;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Exo Light';
+  margin-left: 0px; }
+  .wpcf7-form .wpcf7-submit:hover {
+    border-color: #00cc00;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -684,17 +704,23 @@ object {
     width: auto;
     height: 200px;
     color: #00cc00;
-    margin-left: 600px;
+    margin-left: 650px;
     font-size: 100px; }
   .hfeed-site .site-content .content-area .site-main .content-author {
     -webkit-box-flex: 50%;
         -ms-flex: 50%;
             flex: 50%; }
     .hfeed-site .site-content .content-area .site-main .content-author .quote {
-      font-family: 'Exo Medium'; }
+      font-family: 'Exo Light';
+      font-size: 18px;
+      margin-left: -120px;
+      margin-right: 10px; }
     .hfeed-site .site-content .content-area .site-main .content-author .author {
       font-family: 'Exo Light';
-      color: white; }
+      color: white;
+      font-size: 16px;
+      margin-bottom: 30px;
+      margin-left: -100px; }
       .hfeed-site .site-content .content-area .site-main .content-author .author .art-web {
         color: #00cc00;
         font-family: 'Exo Light Italic'; }
@@ -705,23 +731,71 @@ object {
     font-size: 100px;
     width: 100%;
     height: 500px;
-    color: #00cc00; }
+    color: #00cc00;
+    margin-right: -110px; }
 
 .site-content .content-area .site-main .entry-header h1 {
   color: white;
-  font-family: 'Exo Medium'; }
+  font-family: 'Exo Medium';
+  margin-left: -100px; }
 
-.site-content .content-area .site-main .entry-content p {
+.site-content .content-area .site-main .entry-content {
+  margin-left: -100px;
+  margin-right: 40px; }
+  .site-content .content-area .site-main .entry-content p {
+    color: white;
+    font-family: 'Exo Light'; }
+  .site-content .content-area .site-main .entry-content .quotes {
+    color: #00cc00; }
+
+.archive-container {
+  margin-bottom: 400px; }
+  .archive-container h2, .archive-container h3 {
+    font-family: 'Exo Light';
+    color: white;
+    margin-left: 20px; }
+  .archive-container a {
+    font-family: 'Exo Light';
+    color: #00cc00;
+    margin-left: 20px;
+    text-decoration: none; }
+  .archive-container ul {
+    list-style-type: none;
+    display: inline; }
+  .archive-container li {
+    float: left; }
+
+.page-title {
+  color: white; }
+
+.category-content h2, .category-content p {
   color: white;
   font-family: 'Exo Light'; }
 
-.site-content .content-area .site-main .entry-content .quotes {
-  color: #00cc00; }
+.post-230 {
+  margin-left: -200px;
+  margin-bottom: 230px; }
 
-.error-404 .page-header .page-title {
-  color: white;
-  font-family: 'Exo Medium'; }
+.error-404 {
+  margin-left: -450px; }
+  .error-404 .page-header .page-title {
+    color: white;
+    font-family: 'Exo Medium'; }
+  .error-404 .page-content p {
+    color: white;
+    font-family: 'Exo Light'; }
 
-.error-404 .page-content p {
-  color: white;
-  font-family: 'Exo Light'; }
+.main-navigation .menu-main-menu-container ul {
+  margin-left: 700px;
+  margin-top: -200px; }
+  .main-navigation .menu-main-menu-container ul li {
+    padding-right: 20px; }
+    .main-navigation .menu-main-menu-container ul li a {
+      font-family: 'Exo Light';
+      color: #00cc00; }
+
+.main-navigation .red {
+  font-family: 'Exo Light';
+  color: white; }
+  .main-navigation .red .red-in-green {
+    color: #00cc00; }

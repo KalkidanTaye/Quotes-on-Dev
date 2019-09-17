@@ -1,0 +1,39 @@
+.archive-container{
+    margin-bottom: 400px;
+    h2, h3{
+    font-family: 'Exo Light';
+    color: white;
+    margin-left: 20px;
+
+    }
+    a{
+        font-family: 'Exo Light';
+        color: #00cc00;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+   
+    ul{
+        list-style-type: none;
+        display:inline;
+        }
+        li{
+            float:left;
+            
+    }
+}
+
+//Category Page
+
+.page-title{
+    color: white;
+}
+
+.category-content{
+    h2, p{
+        color: white;
+        // font-size: 16px;
+        font-family: 'Exo Light';
+    }
+   
+}

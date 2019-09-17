@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all single posts.
- *
+ * Template Name: Quotes
  * @package QOD_Starter_Theme
  */
 
