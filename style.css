@@ -785,6 +785,25 @@ object {
   margin-left: -200px;
   margin-bottom: 230px; }
 
+.page-content {
+  color: white;
+  margin: 0; }
+
+.page-title {
+  font-family: 'Exo Light'; }
+
+.entry-title a {
+  color: #00cc00;
+  text-decoration: none;
+  font-family: 'Exo Light'; }
+
+.entry-summary {
+  color: white;
+  font-family: 'Exo Light'; }
+
+.search-results {
+  width: 1200px; }
+
 .error-404 {
   margin-left: -450px; }
   .error-404 .page-header .page-title {

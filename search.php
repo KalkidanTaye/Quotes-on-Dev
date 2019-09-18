@@ -6,14 +6,15 @@
  */
 
 get_header(); ?>
-
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
+<div id="primary" class="content-area">
+      <main id="main" class="site-main" role="main">
+         <div class="left-quote"><i class="fas fa-quote-left"></i></div>
+	
 		<?php if ( have_posts() ) : ?>
-
+		<div class="search-result">
 			<header class="page-header">
 				<h1 class="page-title"><?php printf( esc_html( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+			<hr>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
@@ -30,8 +31,10 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
-
-		</main><!-- #main -->
-	</section><!-- #primary -->
+		</div>
+		
+		<div class="right-quote"> <i class="fas fa-quote-right"></i></div>
+		      </main><!-- #main -->
+	      </div><!-- #primary -->
 
 <?php get_footer(); ?>
