@@ -768,9 +768,18 @@ object {
 .page-title {
   color: white; }
 
-.category-content h2, .category-content p {
-  color: white;
-  font-family: 'Exo Light'; }
+.category-content {
+  margin-bottom: 200px; }
+  .category-content h3, .category-content p {
+    color: white;
+    font-family: 'Exo Light'; }
+  .category-content ul {
+    display: inline;
+    list-style-type: none;
+    color: white; }
+  .category-content a {
+    text-decoration: none;
+    color: white; }
 
 .post-230 {
   margin-left: -200px;

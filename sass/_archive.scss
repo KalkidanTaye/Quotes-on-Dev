@@ -25,15 +25,31 @@
 
 //Category Page
 
-.page-title{
+.page-title {
     color: white;
 }
 
 .category-content{
-    h2, p{
+    margin-bottom: 200px;
+    h3, p{
         color: white;
-        // font-size: 16px;
         font-family: 'Exo Light';
     }
+    ul {
+        
+        display: inline;
+        list-style-type: none;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    li{
+        // float: left;
+    }
+    
+   
    
 }

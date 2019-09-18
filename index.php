@@ -20,13 +20,13 @@ get_header(); ?>
 			<?php endif; ?>
 		
 			<div class="category-content">
-			<h2> Category: <?php echo the_category(); ?></h2> 
+			<h3> Category: <?php echo the_category(); ?></h3> 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<hr>
-				<?php the_content(); ?>
-				<?php the_title(); ?>
+				<h3><?php the_content(); ?></h3>
+				<p>- <?php the_title(); ?></p>
 				
 				
 			<?php endwhile; ?>
