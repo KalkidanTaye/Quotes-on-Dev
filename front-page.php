@@ -26,7 +26,7 @@ get_header(); ?>
             <!-- the loop -->
             <div class="content-author">
                <?php while ( $the_first_quote->have_posts() ) : $the_first_quote->the_post(); ?>
-               <div class="quote"><h2><?php the_content(); ?></h2></div>
+               <div class="quote"><?php the_content(); ?></div>
                <div class="author"> <p> - <?php the_title(); ?>.<span class="art-web"> The Art of Web Design</span></p></div>
 
 

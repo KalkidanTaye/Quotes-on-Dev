@@ -21,6 +21,7 @@ $blogs = new WP_Query(array(
 ?>
 
 
+
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
         <div class="left-quote"><i class="fas fa-quote-left"></i></div>

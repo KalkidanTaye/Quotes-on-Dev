@@ -425,8 +425,7 @@ input[type="submit"] {
   color: #00cc00;
   font-size: 16px;
   padding: 10px 20px 10px 20px;
-  font-family: 'Exo Light';
-  margin-left: -120px; }
+  font-family: 'Exo Light'; }
   .show-button:hover {
     border-color: #00cc00;
     -webkit-box-shadow: none;
@@ -693,34 +692,32 @@ object {
       -ms-flex: 100%;
           flex: 100%;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  margin-left: -500px; }
+      flex-wrap: nowrap; }
   .hfeed-site .site-content .content-area .site-main .quote {
     color: white; }
   .hfeed-site .site-content .content-area .site-main .left-quote {
     -webkit-box-flex: 25%;
         -ms-flex: 25%;
             flex: 25%;
-    width: auto;
+    width: 110px;
     height: 200px;
     color: #00cc00;
-    margin-left: 650px;
+    margin-left: 100px;
     font-size: 100px; }
   .hfeed-site .site-content .content-area .site-main .content-author {
     -webkit-box-flex: 50%;
         -ms-flex: 50%;
-            flex: 50%; }
+            flex: 50%;
+    margin-right: 50px; }
     .hfeed-site .site-content .content-area .site-main .content-author .quote {
       font-family: 'Exo Light';
-      font-size: 18px;
-      margin-left: -120px;
+      font-size: 26px;
       margin-right: 10px; }
     .hfeed-site .site-content .content-area .site-main .content-author .author {
       font-family: 'Exo Light';
       color: white;
       font-size: 16px;
-      margin-bottom: 30px;
-      margin-left: -100px; }
+      margin-bottom: 30px; }
       .hfeed-site .site-content .content-area .site-main .content-author .author .art-web {
         color: #00cc00;
         font-family: 'Exo Light Italic'; }
@@ -728,11 +725,10 @@ object {
     -webkit-box-flex: 25%;
         -ms-flex: 25%;
             flex: 25%;
-    font-size: 100px;
+    font-size: 110px;
     width: 100%;
     height: 500px;
-    color: #00cc00;
-    margin-right: -110px; }
+    color: #00cc00; }
 
 .site-content .content-area .site-main .entry-header h1 {
   color: white;
@@ -749,7 +745,8 @@ object {
     color: #00cc00; }
 
 .archive-container {
-  margin-bottom: 400px; }
+  margin-bottom: 400px;
+  width: 900px; }
   .archive-container h2, .archive-container h3 {
     font-family: 'Exo Light';
     color: white;
@@ -757,7 +754,7 @@ object {
   .archive-container a {
     font-family: 'Exo Light';
     color: #00cc00;
-    margin-left: 20px;
+    margin-right: 20px;
     text-decoration: none; }
   .archive-container ul {
     list-style-type: none;
