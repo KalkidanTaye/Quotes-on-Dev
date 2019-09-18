@@ -792,8 +792,7 @@ object {
   margin-bottom: 230px; }
 
 .page-content {
-  color: white;
-  margin: 0; }
+  color: white; }
 
 .page-title {
   font-family: 'Exo Light'; }
@@ -811,7 +810,7 @@ object {
   width: 1200px; }
 
 .error-404 {
-  margin-left: -450px; }
+  width: 800px; }
   .error-404 .page-header .page-title {
     color: white;
     font-family: 'Exo Medium'; }
