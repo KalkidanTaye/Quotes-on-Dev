@@ -769,7 +769,8 @@ object {
   color: white; }
 
 .category-content {
-  margin-bottom: 200px; }
+  margin-bottom: 200px;
+  width: 900px; }
   .category-content h3, .category-content p {
     color: white;
     font-family: 'Exo Light'; }
@@ -780,6 +781,14 @@ object {
   .category-content a {
     text-decoration: none;
     color: white; }
+
+.nav-previous a {
+  color: #00cc00;
+  font-family: 'Exo Light'; }
+
+.nav-next a {
+  color: #00cc00;
+  font-family: 'Exo Light'; }
 
 .post-230 {
   margin-left: -200px;
